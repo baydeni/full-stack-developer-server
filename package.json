@@ -1,0 +1,32 @@
+{
+  "type": "module",
+  "name": "web-dev-server",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Web server for the Tuiter application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baydeni/web-dev-server.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP"
+  ],
+  "author": "Bayden Ibrahim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baydeni/web-dev-server/issues"
+  },
+  "homepage": "https://github.com/baydeni/web-dev-server#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
